@@ -1,0 +1,57 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+    #app {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    #app {
+        max-width: 70%;
+    }
+
+    form input, form button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #app {
+        max-width: 90%;
+    }
+
+    form input, form button {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 8px;
+    }
+
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    li button {
+        margin-top: 5px;
+        width: 100%;
+    }
+}

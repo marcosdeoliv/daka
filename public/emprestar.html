@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materiais Disponíveis</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex flex-column align-items-center justify-content-center vh-100">
+        <div id="app" class="bg-light p-5 rounded shadow w-100">
+            <div class="text-center mb-4">
+                <small>Dk v.1.0© CMTI/SEMED</small>
+            </div>
+            <h1 class="text-center mb-4">Materiais Disponíveis</h1>
+            <form id="loan-form" class="mb-4">
+                <div class="form-group">
+                    <input type="text" id="material" class="form-control" placeholder="Nome do Material" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mb-2">Adicionar</button>
+            </form>
+            <ul id="material-list" class="list-group mb-4"></ul>
+            <a href="home.html" class="btn btn-primary btn-block">Voltar para Home</a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
